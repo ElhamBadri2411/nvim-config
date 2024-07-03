@@ -1,7 +1,10 @@
 -- since this is just an example spec, don't actually load anything here and return an empty spec
 -- stylua: ignore
 return {
-
+  {
+    "christoomey/vim-tmux-navigator",
+    lazy = false
+  },
   {
     "echasnovski/mini.indentscope",
     opts = {
@@ -12,7 +15,6 @@ return {
       },
     },
   },
-  { "ellisonleao/gruvbox.nvim" },
   { import = "lazyvim.plugins.extras.lang.typescript" },
 }
 
